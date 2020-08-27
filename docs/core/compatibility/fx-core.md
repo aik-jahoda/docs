@@ -67,9 +67,13 @@ If you're migrating an app from .NET Framework to .NET Core, the breaking change
 
 - [WebClient.CancelAsync doesn't always cancel immediately](#webclientcancelasync-doesnt-always-cancel-immediately)
 
+- [WebRequest in not recomended for new development](#webRequest-in-not-recomended-for-new-development)
+
 ### .NET Core 2.0
 
 [!INCLUDE [behavior-change-webclient-cancelasync](../../../includes/core-changes/networking/2.0/behavior-change-webclient-cancelasync.md)]
+
+[!INCLUDE [behavior-change-webrequest-deprecate](../../../includes/core-changes/networking/2.0/behavior-change-webrequest-deprecate.md)]
 
 ***
 
